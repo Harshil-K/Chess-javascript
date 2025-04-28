@@ -9,6 +9,8 @@
 .square{
     height: 50px;
     width: 50px;
+    overflow: visible;
+    background-clip: padding-box;
     position: relative;
 }
 
@@ -22,7 +24,7 @@
 
 path{
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 .piece{
